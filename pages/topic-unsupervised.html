@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Insight Hub | Supervised Learning</title>
-    <meta name="description" content="Detailed explanation of Supervised Learning.">
+    <title>AI Insight Hub | Unsupervised Learning</title>
+    <meta name="description" content="Detailed explanation of Unsupervised Learning.">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <nav>
@@ -32,8 +32,8 @@
 
     <header class="page-header">
         <div class="container fade-in">
-            <h1>Supervised Learning</h1>
-            <p style="max-width: 600px; margin: 0 auto;">Learning from labeled data examples.</p>
+            <h1>Unsupervised Learning</h1>
+            <p style="max-width: 600px; margin: 0 auto;">Discovering hidden patterns in raw data.</p>
         </div>
     </header>
 
@@ -41,16 +41,17 @@
         <div class="card fade-in" style="margin-bottom: 2rem;">
             <a href="basics.html" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem; margin-bottom: 2rem; display: inline-block;">&larr; Back to AI Basics</a>
             
-            <h2 style="color: var(--primary-cyan);">What is Supervised Learning?</h2>
-            <p>Supervised learning is a machine learning approach that's defined by its use of labeled datasets to train algorithms that to classify data or predict outcomes accurately. As input data is fed into the model, it adjusts its weights until the model has been fitted appropriately.</p>
+            <h2 style="color: var(--primary-cyan);">What is Unsupervised Learning?</h2>
+            <p>Unlike supervised learning, unsupervised learning uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention.</p>
             
-            <h3 style="color: var(--primary-purple); margin-top: 1.5rem;">Key Concepts</h3>
+            <h3 style="color: var(--primary-purple); margin-top: 1.5rem;">Main Techniques</h3>
             <ul style="color: var(--text-muted); padding-left: 1.5rem; margin-bottom: 1.5rem;">
-                <li><strong>Classification:</strong> Uses an algorithm to accurately assign test data into specific categories (e.g., separating apples from oranges).</li>
-                <li><strong>Regression:</strong> Used to understand the relationship between dependent and independent variables to forecast numerical values (e.g., predicting house prices).</li>
+                <li><strong>Clustering:</strong> Grouping unlabeled data based on their similarities or differences (e.g., customer segmentation for marketing).</li>
+                <li><strong>Association:</strong> Discovering rules that describe large portions of the data, such as finding that people who buy bread also buy butter.</li>
+                <li><strong>Dimensionality Reduction:</strong> Reducing the number of variables in a dataset while preserving its core information, often used for data visualization.</li>
             </ul>
 
-            <p>A classic example of supervised learning is training an algorithm to recognize pictures of cats. You feed the algorithm thousands of pictures labeled "cat" and thousands of pictures labeled "not a cat". Over time, it learns the features of a cat and can identify one in a new, unlabeled picture.</p>
+            <p>Unsupervised learning is highly useful for exploratory data analysis, cross-selling strategies, and image recognition where labeling massive amounts of data is impractical.</p>
         </div>
     </section>
 
@@ -60,8 +61,9 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
+
 
 
