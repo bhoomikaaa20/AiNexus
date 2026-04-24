@@ -351,6 +351,26 @@ nav {
   font-size: 1.2rem;
 }
 
+.topic-link {
+  display: inline-block;
+  color: var(--primary-cyan);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  background: rgba(0, 240, 255, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.topic-link:hover {
+  background: rgba(0, 240, 255, 0.15);
+  border-color: rgba(0, 240, 255, 0.4);
+  transform: translateX(5px);
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+}
+
 /* Table */
 .table-wrapper {
   overflow-x: auto;
