@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const btn = loginForm.querySelector('button');
                 btn.innerText = 'Authenticating...';
                 setTimeout(() => {
-                    alert('Login successful! Welcome to AI Nexus.');
+                    alert('Login successful! Welcome to AI Insight Hub.');
                     window.location.href = 'index.html';
                 }, 1500);
             }
@@ -183,3 +183,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
